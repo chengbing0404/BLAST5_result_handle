@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/90days/uqbchen4/blast_2.4.0/ncbi-blast-2.4.0+/databases/1_swiss_uniprot_reviewed/swiss_uniprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>1061</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>1e-05</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>L;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>2</Iteration_iter-num>
+  <Iteration_query-ID>Query_2</Iteration_query-ID>
+  <Iteration_query-def>c7/f29p9/979 isoform=c7;full_length_coverage=29;non_full_length_coverage=9;isoform_length=979</Iteration_query-def>
+  <Iteration_query-len>979</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|163784</Hit_id>
+  <Hit_def>sp|P40267|H1_SOLPN Histone H1 OS=Solanum pennellii PE=2 SV=1</Hit_def>
+  <Hit_accession>163784</Hit_accession>
+  <Hit_len>202</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.79</Hsp_bit-score>
+      <Hsp_score>312</Hsp_score>
+      <Hsp_evalue>2.38334e-32</Hsp_evalue>
+      <Hsp_query-from>225</Hsp_query-from>
+      <Hsp_query-to>425</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>YFEMIKEALVALNEKSGSSPYAIAKFVEEKHKSELPANFRKILGLQLKNSAARGKLIKIKASYKLSE</Hsp_qseq>
+      <Hsp_hseq>YFQMIKEALLALNEKGGSSPYAVAKYMEDKHKDELPANFRKILGLQLKNSAAKGKLIKIKASYKLSE</Hsp_hseq>
+      <Hsp_midline>YF+MIKEAL+ALNEK GSSPYA+AK++E+KHK ELPANFRKILGLQLKNSAA+GKLIKIKASYKLSE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|163775</Hit_id>
+  <Hit_def>sp|P23444|H1_MAIZE Histone H1 OS=Zea mays PE=2 SV=2</Hit_def>
+  <Hit_accession>163775</Hit_accession>
+  <Hit_len>246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.3521</Hsp_bit-score>
+      <Hsp_score>220</Hsp_score>
+      <Hsp_evalue>1.94386e-19</Hsp_evalue>
+      <Hsp_query-from>225</Hsp_query-from>
+      <Hsp_query-to>422</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>YFEMIKEALVALNEKSGSSPYAIAKFVEEKHKSELPANFRKILGLQLKNSAARGKLIKIKASYKLS</Hsp_qseq>
+      <Hsp_hseq>YAEMVSEAITSLKERTGSSSYAIAKFVEDKHKAKLPPNFRKLLNVQLKKLVAGGKLTKVKNSYKLS</Hsp_hseq>
+      <Hsp_midline>Y EM+ EA+ +L E++GSS YAIAKFVE+KHK++LP NFRK+L +QLK   A GKL K+K SYKLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|163788</Hit_id>
+  <Hit_def>sp|P27806|H1_WHEAT Histone H1 OS=Triticum aestivum PE=2 SV=2</Hit_def>
+  <Hit_accession>163788</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.8853</Hsp_bit-score>
+      <Hsp_score>211</Hsp_score>
+      <Hsp_evalue>2.4742e-18</Hsp_evalue>
+      <Hsp_query-from>225</Hsp_query-from>
+      <Hsp_query-to>425</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>YFEMIKEALVALNEKSGSSPYAIAKFVEEKHKSELPANFRKILGLQLKNSAARGKLIKIKASYKLSE</Hsp_qseq>
+      <Hsp_hseq>YAEMVSEAIAALKERSGSSTIAIGKFIEDKHKAHLPANFRKILLTQIKKLVAAGKLTKVKGSYKLAK</Hsp_hseq>
+      <Hsp_midline>Y EM+ EA+ AL E+SGSS  AI KF+E+KHK+ LPANFRKIL  Q+K   A GKL K+K SYKL++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|163576</Hit_id>
+  <Hit_def>sp|P26569|H12_ARATH Histone H1.2 OS=Arabidopsis thaliana GN=At2g30620 PE=1 SV=1</Hit_def>
+  <Hit_accession>163576</Hit_accession>
+  <Hit_len>273</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.1814</Hsp_bit-score>
+      <Hsp_score>191</Hsp_score>
+      <Hsp_evalue>2.00305e-15</Hsp_evalue>
+      <Hsp_query-from>225</Hsp_query-from>
+      <Hsp_query-to>419</Hsp_query-to>
+      <Hsp_hit-from>65</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>YFEMIKEALVALNEKSGSSPYAIAKFVEEKHKSELPANFRKILGLQLKNSAARGKLIKIKASYKL</Hsp_qseq>
+      <Hsp_hseq>YEEMIKDAIVTLKERTGSSQYAIQKFIEEKHKS-LPPTFRKLLLVNLKRLVASEKLVKVKASFKI</Hsp_hseq>
+      <Hsp_midline>Y EMIK+A+V L E++GSS YAI KF+EEKHKS LP  FRK+L + LK   A  KL+K+KAS+K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|163779</Hit_id>
+  <Hit_def>sp|P08283|H1_PEA Histone H1 OS=Pisum sativum PE=2 SV=1</Hit_def>
+  <Hit_accession>163779</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.559</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>8.19295e-14</Hsp_evalue>
+      <Hsp_query-from>225</Hsp_query-from>
+      <Hsp_query-to>422</Hsp_query-to>
+      <Hsp_hit-from>65</Hsp_hit-from>
+      <Hsp_hit-to>129</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>YFEMIKEALVALNEKSGSSPYAIAKFVEEKHKSELPANFRKILGLQLKNSAARGKLIKIKASYKLS</Hsp_qseq>
+      <Hsp_hseq>YEEMIKDAIVSLKEKNGSSQYAIAKFIEEKQK-QLPANFKKLLLQNLKKNVASGKLIKVKGSFKLS</Hsp_hseq>
+      <Hsp_midline>Y EMIK+A+V+L EK+GSS YAIAKF+EEK K +LPANF+K+L   LK + A GKLIK+K S+KLS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|163772</Hit_id>
+  <Hit_def>sp|Q9M5W4|H1_EUPES Histone H1 OS=Euphorbia esula PE=2 SV=1</Hit_def>
+  <Hit_accession>163772</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.1662</Hsp_bit-score>
+      <Hsp_score>165</Hsp_score>
+      <Hsp_evalue>4.24173e-12</Hsp_evalue>
+      <Hsp_query-from>225</Hsp_query-from>
+      <Hsp_query-to>416</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>YFEMIKEALVALNEKSGSSPYAIAKFVEEKHKSELPANFRKILGLQLKNSAARGKLIKIKASYK</Hsp_qseq>
+      <Hsp_hseq>FFEMISDAISTLKERTGSSQYAINKFVEDKHK-QLPSNFRKLLLFHLKKLVASGKLVKVKNSFK</Hsp_hseq>
+      <Hsp_midline>+FEMI +A+  L E++GSS YAI KFVE+KHK +LP+NFRK+L   LK   A GKL+K+K S+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|163560</Hit_id>
+  <Hit_def>sp|P26568|H11_ARATH Histone H1.1 OS=Arabidopsis thaliana GN=At1g06760 PE=1 SV=1</Hit_def>
+  <Hit_accession>163560</Hit_accession>
+  <Hit_len>274</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.781</Hsp_bit-score>
+      <Hsp_score>164</Hsp_score>
+      <Hsp_evalue>1.00809e-11</Hsp_evalue>
+      <Hsp_query-from>225</Hsp_query-from>
+      <Hsp_query-to>419</Hsp_query-to>
+      <Hsp_hit-from>65</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>YFEMIKEALVALNEKSGSSPYAIAKFVEEKHKSELPANFRKILGLQLKNSAARGKLIKIKASYKL</Hsp_qseq>
+      <Hsp_hseq>YEEMIKDAIVTLKERTGSSQYAIQKFIEEKRK-ELPPTFRKLLLLNLKRLVASGKLVKVKASFKL</Hsp_hseq>
+      <Hsp_midline>Y EMIK+A+V L E++GSS YAI KF+EEK K ELP  FRK+L L LK   A GKL+K+KAS+KL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|163783</Hit_id>
+  <Hit_def>sp|P37218|H1_SOLLC Histone H1 OS=Solanum lycopersicum PE=3 SV=1</Hit_def>
+  <Hit_accession>163783</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.3958</Hsp_bit-score>
+      <Hsp_score>163</Hsp_score>
+      <Hsp_evalue>1.60609e-11</Hsp_evalue>
+      <Hsp_query-from>225</Hsp_query-from>
+      <Hsp_query-to>419</Hsp_query-to>
+      <Hsp_hit-from>59</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>YFEMIKEALVALNEKSGSSPYAIAKFVEEKHKSELPANFRKILGLQLKNSAARGKLIKIKASYKL</Hsp_qseq>
+      <Hsp_hseq>YFEMIKDAIVTLKERTGSSQHAITKFIEEKQKS-LPSNFKKLLLTQLKKFVASEKLVKVKNSYKL</Hsp_hseq>
+      <Hsp_midline>YFEMIK+A+V L E++GSS +AI KF+EEK KS LP+NF+K+L  QLK   A  KL+K+K SYKL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|163569</Hit_id>
+  <Hit_def>sp|Q08864|H11_VOLCA Histone H1-I OS=Volvox carteri GN=H1-I PE=2 SV=3</Hit_def>
+  <Hit_accession>163569</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.8398</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>1.05502e-07</Hsp_evalue>
+      <Hsp_query-from>225</Hsp_query-from>
+      <Hsp_query-to>425</Hsp_query-to>
+      <Hsp_hit-from>62</Hsp_hit-from>
+      <Hsp_hit-to>129</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>YFEMIKEALVALNEKSGSSPYAIAKFVEEKHKSEL-PANFRKILGLQLKNSAARGKLIKIKASYKLSE</Hsp_qseq>
+      <Hsp_hseq>YIEMVKDAITTLKERNGSSLPALKKFIENKYGKDIHDKNFAKTLSQVVKTFVKGGKLVKVKGSFKLSE</Hsp_hseq>
+      <Hsp_midline>Y EM+K+A+  L E++GSS  A+ KF+E K+  ++   NF K L   +K     GKL+K+K S+KLSE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|163583</Hit_id>
+  <Hit_def>sp|Q08865|H12_VOLCA Histone H1-II OS=Volvox carteri GN=H1-II PE=2 SV=3</Hit_def>
+  <Hit_accession>163583</Hit_accession>
+  <Hit_len>241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.0694</Hsp_bit-score>
+      <Hsp_score>131</Hsp_score>
+      <Hsp_evalue>1.62451e-07</Hsp_evalue>
+      <Hsp_query-from>225</Hsp_query-from>
+      <Hsp_query-to>425</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>95</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>YFEMIKEALVALNEKSGSSPYAIAKFVEEKHKSEL-PANFRKILGLQLKNSAARGKLIKIKASYKLSE</Hsp_qseq>
+      <Hsp_hseq>YIQMVTDAILSLKERDGSSLPALKKFIEAKYGKDIHDKKFPKTLSLALKTFVKNGKLVKVKNSYKLSD</Hsp_hseq>
+      <Hsp_midline>Y +M+ +A+++L E+ GSS  A+ KF+E K+  ++    F K L L LK     GKL+K+K SYKLS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>551705</Statistics_db-num>
+      <Statistics_db-len>197114987</Statistics_db-len>
+      <Statistics_hsp-len>118</Statistics_hsp-len>
+      <Statistics_eff-space>27458869776</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
